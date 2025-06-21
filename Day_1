@@ -1,1 +1,12 @@
+🔄 Quick Recap of Tools:
+| Tool      | What it lists / switches                                     |
+| --------- | ------------------------------------------------------------ |
+| `kubectx` | Shows and switches **contexts** (clusters/configs)           |
+| `kubens`  | Shows and switches **namespaces** within the current context |
+
+✅ To Install kubens (alongside kubectx):
+wget https://github.com/ahmetb/kubectx/releases/download/v0.9.5/kubens_v0.9.5_linux_x86_64.tar.gz
+tar -xzf kubens_v0.9.5_linux_x86_64.tar.gz
+mv kubens /usr/local/bin/
+chmod +x /usr/local/bin/kubens
 
